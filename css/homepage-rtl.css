@@ -1,0 +1,79 @@
+/* Start imports */
+/* Start Media Queries */
+/* End Media Queries */
+/* start colors */
+/* end colors */
+/* start Directions */
+/* end Directions */
+/* End imports */
+/* start Directions */
+/* end Directions */
+@media (min-width: 992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+.header .logo .the-toggler {
+  right: auto;
+  left: 15px;
+}
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+.header .navbar li {
+  float: right;
+}
+
+/* start services */
+@media (min-width: 992px) {
+  .services .service-box {
+    float: right;
+  }
+}
+
+/* end services */
+/* start players */
+@media (min-width: 768px) {
+  .our-players .player-box {
+    float: right;
+  }
+}
+@media (min-width: 992px) {
+  .our-players .player-box {
+    text-align: right;
+  }
+}
+
+/* end players */
+/* start start Lorem Ipsum Section */
+.lorem-ipsum .lorem-box {
+  float: right;
+}
+
+/* end start Lorem Ipsum Section */
+.footer .gallery, .footer .info, .footer .contact {
+  float: right;
+}
+.footer .gallery .img-box img {
+  float: right;
+}
+.footer .gallery .img-box .text {
+  float: right;
+}
+.footer .copyright .copy-text,
+.footer .copyright .designer {
+  float: right;
+}
+.footer .copyright .designer {
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .footer .copyright .designer {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=homepage-rtl.css.map */
